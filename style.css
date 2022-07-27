@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #060f14;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    float: left;
+    margin-left: 2%;
+}
+
+.menuLateral {
+    float:left;
+    width: 15%;
+    height:800px;
+}
+
+.conteudo{
+    width: 70%;
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    margin-left:5%;
+    display: inline-block;
+    height:800px;
+}
+
+
+.footer {
+    background-color: #1C1C1C;
+    height: 150px;
+    padding: 10px;
+}
+
+/*frase do rodapé*/
+#frase {
+    color: rgb(241, 241, 241);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-size: 20px;
+}
+
+
+h1 {
+    text-shadow: 0 0 0.2em #5c83b4, 0 0 0.2em #5c83b4,
+    0 0 0.2em #5c83b4;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+
+h3, .conteudo {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color: green;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #525252;
+    padding: 5px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+a:hover{
+    background: #03e9f4;
+    box-shadow: 0 0 0px #03e9f4,
+                0 0 5px #03e9f4,
+                0 0 15px #03e9f4,
+                0 0 0px #03e9f4;
+    transition: 0.2s ease-in;
+    color: #000000;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #060f14;
+    padding: 20px;
+}
+  
+li.navbar {
+    display:inline-block;
+}
+
+.google{
+    background-color: white;
+    margin: 5%;
+    padding: 20px;
+}
+
+.anima {
+    display: inline-block;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding-right: 4px;
+    max-width: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .8s, escrever normal 5s steps(55) both;
+}
+
+@keyframes pisca {
+    100%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes escrever {
+    100%{
+        max-width: 100%;
+    }
+}

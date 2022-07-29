@@ -6,22 +6,25 @@
 
 body {
     background-color: #060f14;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 header {
     text-align: center;
     padding: 20px;
+    border: 2px solid blue;;
 }
 
 img{
     float: left;
-    margin-left: 2%;
 }
 
 .menuLateral {
     float:left;
-    width: 15%;
+    width: 180px;
     height:800px;
+    border: 2px solid wheat;
 }
 
 .conteudo{
@@ -31,13 +34,14 @@ img{
     margin-left:5%;
     display: inline-block;
     height:800px;
+    border: 2px solid yellow;
 }
-
 
 .footer {
     background-color: #1C1C1C;
     height: 150px;
     padding: 10px;
+    margin-top: 100px;
 }
 
 /*frase do rodapé*/
@@ -52,11 +56,10 @@ img{
 h1 {
     text-shadow: 0 0 0.2em #5c83b4, 0 0 0.2em #5c83b4,
     0 0 0.2em #5c83b4;
-    font-size: 80px;
+    font-size: 50px;
     font-family:'Times New Roman', Times, serif;
-    text-align: center;
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -83,7 +86,7 @@ a {
     position: relative;
     overflow: hidden;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
     letter-spacing: 3px;
     line-height: 25px;
     padding: 6px 16px;
@@ -111,12 +114,12 @@ ul{
   
 li.navbar {
     display:inline-block;
+    border: 2px solid red;
 }
 
 .google{
     background-color: white;
-    margin: 5%;
-    padding: 20px;
+    margin-top: 120px;
 }
 
 .anima {
